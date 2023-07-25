@@ -1,0 +1,6 @@
+node_module/
+allure-report/
+allure-result/
+junit-report/
+
+# comment

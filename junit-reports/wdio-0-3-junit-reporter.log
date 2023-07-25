@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Search functionality" timestamp="2023-07-24T22:03:11" time="15.054" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Search functionality"/>
+      <property name="capabilities" value="chrome.114_0_5735_248.windows"/>
+      <property name="file" value="file:///C:/Users/HP/Desktop/workspace/Powergas/test/specs/test1.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_248.windows.Search_functionality" name="My first Test" time="15.052">
+      <system-out><![CDATA[
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/url - {"url":"https://google.com/"}
+RESULT: {"url":"https://google.com/"}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/element/E5CABBC2652BCD307E79B74BC1BB61F9_element_2/clear - {}
+RESULT: {}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/element/E5CABBC2652BCD307E79B74BC1BB61F9_element_2/value - {"text":"webdriverIO"}
+RESULT: {"text":"webdriverIO"}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/element - {"using":"css selector","value":"[name=\"btnK\"]"}
+RESULT: {"using":"css selector","value":"[name=\"btnK\"]"}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/element/E5CABBC2652BCD307E79B74BC1BB61F9_element_9/click - {}
+RESULT: {}
+COMMAND: POST /session/77d20c9658430cc90c2ba96e531dc960/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/77d20c9658430cc90c2ba96e531dc960/actions - {}
+RESULT: {}
+COMMAND: DELETE /session/77d20c9658430cc90c2ba96e531dc960 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My first recorded test" timestamp="2023-07-25T09:33:45" time="14.506" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My first recorded test"/>
+      <property name="capabilities" value="chrome.114_0_5735_248.windows"/>
+      <property name="file" value="file:///C:/Users/HP/Desktop/workspace/Powergas/test/specs/My%20first%20recorded%20test.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_248.windows.My_first_recorded_test" name="tests My first recorded test" time="14.504">
+      <failure/>
+      <error message="Expect window to have url&#xA;&#xA;Expected: &quot;https://the-internet.herokuapp.com/secure&quot;&#xA;Received: &quot;https://the-internet.herokuapp.com/login&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/window/rect - {"x":null,"y":null,"width":725,"height":616}
+RESULT: {"x":null,"y":null,"width":725,"height":616}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_6/click - {}
+RESULT: {}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_6/clear - {}
+RESULT: {}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_6/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_3/click - {}
+RESULT: {}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_3/clear - {}
+RESULT: {}
+COMMAND: POST /session/94cbfc58ab8c00c0598a5a90ffb938ab/element/4762EE29F849AC35B1E01A929D6DCFC5_element_3/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/url - {}
+RESULT: {}
+COMMAND: GET /session/94cbfc58ab8c00c0598a5a90ffb938ab/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/94cbfc58ab8c00c0598a5a90ffb938ab - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url
+
+Expected: "https://the-internet.herokuapp.com/secure"
+Received: "https://the-internet.herokuapp.com/login"
+    at Context.<anonymous> (C:\Users\HP\Desktop\workspace\Powergas\test\specs\My first recorded test.js:42:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

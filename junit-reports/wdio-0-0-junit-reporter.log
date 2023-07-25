@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My first recorded test" timestamp="2023-07-24T22:03:11" time="17.974" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My first recorded test"/>
+      <property name="capabilities" value="chrome.114_0_5735_248.windows"/>
+      <property name="file" value="file:///C:/Users/HP/Desktop/workspace/Powergas/test/specs/My%20first%20recorded%20test.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_248.windows.My_first_recorded_test" name="tests My first recorded test" time="17.969">
+      <failure/>
+      <error message="Can't call click on element with selector &quot;aria/This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/window/rect - {"x":null,"y":null,"width":725,"height":616}
+RESULT: {"x":null,"y":null,"width":725,"height":616}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: GET /session/6e7b8d8ee7785560ab3f9f599aa369cb/url - {}
+RESULT: {}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: POST /session/6e7b8d8ee7785560ab3f9f599aa369cb/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+COMMAND: GET /session/6e7b8d8ee7785560ab3f9f599aa369cb/screenshot - {}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is w ... (2202 more bytes)"}
+RESULT: {}
+COMMAND: DELETE /session/6e7b8d8ee7785560ab3f9f599aa369cb - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "aria/This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages." because element wasn't found
+    at async Context.<anonymous> (C:\Users\HP\Desktop\workspace\Powergas\test\specs\My first recorded test.js:6:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
