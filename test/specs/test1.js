@@ -3,7 +3,7 @@ describe('Search functionality', function () {
         await browser.url('https://google.com')
         await $('[name="q"]').setValue('webdriverIO')
         await $('[name="btnK"]').click()
-        //await browser.pause(20000)//
+        //await browser.pause(80000)//
         await browser.keys('Enter')
     })
 })
